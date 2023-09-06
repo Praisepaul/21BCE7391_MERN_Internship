@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Task 4</title>
+    <style>
+        label{
+            margin-top: 8px;
+        }
+        input, select{
+            float: right;
+            width: 150px;
+            margin-top: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h2> A Simple Form using HTML</h2>
+    <div style="padding: 10px; margin: auto; position: absolute; top: 30%; left: 20%;">
+        <label style="display: inline-block;">Full Name: </label>
+        <input type="text" id="name"><br>
+        <label style="display: inline-block;">Username: </label>
+        <input type="text" id="username"><br>
+        <label style="display: inline-block;">Password: </label>
+        <input type="password" id="password"><br>
+        <label style="display: inline-block;">Re Password: </label>
+        <input type="password" id="repass"><br>
+        <label style="display: inline-block;">Address: </label>
+        <input type="text" id="address"><br>
+        <label style="display: inline-block;">Age: </label>
+        <input type="number" id="age"><br>
+        <label style="display: inline-block;">Gender: </label>
+        <select id="gender">
+            <option value="Select you gender" selected>Select you gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+        <button type="submit"> Save </button>
+    </div>
+</body>
+</html>

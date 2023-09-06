@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        label{
+            display: inline-block;
+        }
+        table, td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="color: blue; text-align: center;">Registration Form</h3>
+    <table style="margin: auto;">
+        <tr>
+            <td>First Name</td>
+            <td colspan="4"><input style="width: 98%;" type="text"></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td colspan="4"><input style="width: 98%;" type="text"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td colspan="4"><input style="width: 98%;" type="email"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td colspan="4"><input style="width: 98%;" type="password"></td>
+        </tr>
+        <tr>
+            <td>Re-type Password</td>
+            <td colspan="4"><input style="width: 98%;" type="password"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Gender</td>
+            <td colspan="4"><input type="radio"> Male</td>
+        </tr>
+        <tr>
+            <td colspan="4"><input type="radio"> Female</td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td colspan="4"><input style="width: 98%;" type="text"></td>
+        </tr>
+        <tr style="height: 80px;">
+            <td>Address</td>
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td colspan="4"><input style="width: 98%;" type="text"></td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td colspan="4"><select>
+                <option value="India">India</option>
+                <option value="UK">United Kingdom</option>
+                <option value="USA">United States of America</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Afghanistan">Afghanistan</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Languages Known</td>
+            <td><input style="width: 98%;" type="checkbox">English</td>
+            <td><input style="width: 98%;" type="checkbox">Kannada</td>
+            <td><input style="width: 98%;" type="checkbox">Hindi</td>
+            <td><input style="width: 98%;" type="checkbox">Telugu</td>
+        </tr>
+        <tr>
+            <td colspan="4"><input type="checkbox">Hereby I declare that all the given details are true.</td>
+        </tr>
+        <tr>
+            <td colspan="4">Login to <a href="ethnus.com">Ethnus</a> website</td>
+        </tr>
+    </table>
+    <button type="submit">Register</button>
+</body>
+</html>
