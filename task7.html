@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 20px 50px;
+            background-color: aqua;
+        }
+
+        /* Vertical Navigation Bar */
+        .vertical-nav {
+            background-color: #333;
+            position: fixed;
+            overflow-x: hidden;
+        }
+
+        .vertical-nav a {
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            display: block;
+            transition: background-color 0.3s;
+        }
+
+        .vertical-nav a:hover {
+            background-color: rgb(237, 237, 66);
+        }
+
+        /* Horizontal Navigation Bar */
+        .horizontal-nav {
+            background-color: #333;
+            overflow: hidden;
+            margin-left: 5rem;
+            width: fit-content;
+        }
+
+        .horizontal-nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px ;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .horizontal-nav a:hover {
+            background-color: rgb(243, 110, 28);
+        }
+    </style>
+</head>
+<body>
+    <div class="vertical-nav">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">CSS</a>
+        <a href="#">HTML</a>
+        <a href="#">Bootstrap</a>
+        <p style="color: white;">This is Vertical Navbar</p>
+    </div>
+
+    <div class="horizontal-nav">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">CSS</a>
+        <a href="#">HTML</a>
+        <a href="#">Bootstrap</a>
+        <a style="color: white;">This is Horizontal Navbar</p>
+    </div>
+</body>
+</html>
